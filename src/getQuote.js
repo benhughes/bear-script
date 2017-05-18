@@ -6,7 +6,7 @@ async function getQuote() {
     const result = await fetch('http://quotes.rest/qod.json?category=inspire');
     const {contents: {quotes}} = await result.json();
     const [{quote, author}] = quotes;
-    quoteBlock = [`> ${author}`, `/${quote}`];
+    quoteBlock = [`> ${quote}`, `/${author}/`];
   } catch (e) {
     quoteBlock = [''];
   }

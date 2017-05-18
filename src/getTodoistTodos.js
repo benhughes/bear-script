@@ -5,8 +5,12 @@ const moment = require('moment');
 const settings = require('../config.json');
 const INBOX_ID = 177156204;
 
-const generateTodoLine = ({content, due_date_utc}) =>
-  `- ${content} ${due_date_utc ? moment(due_date_utc).fromNow() : ''}`;
+const generateTodoLine = ({content, due_date_utc}) => {
+  const formattedDate = due_date_utc
+    ? `/(${moment(due_date_utc).fromNow()})/`
+    : '';
+  return `- ${content} ${formattedDate}`;
+};
 
 async function getTodoistTodos() {
   try {
