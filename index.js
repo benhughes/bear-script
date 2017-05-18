@@ -3,8 +3,11 @@ const {URLSearchParams} = require('url');
 const moment = require('moment');
 const getQuote = require('./src/getQuote');
 const getTodoistTodos = require('./src/getTodoistTodos');
-// const BEAR_NOTE = '862EBEB3-EF8A-4D37-9806-770CFE8525D0-4846-000002CC22CF7411';
-const BEAR_NOTE = '405CF49F-F19C-4ED9-A70E-51F36657FA9C-1762-0000106750046D9C';
+
+let BEAR_NOTE = '862EBEB3-EF8A-4D37-9806-770CFE8525D0-4846-000002CC22CF7411';
+if (process.env.NODE_ENV === 'dev') {
+  BEAR_NOTE = '405CF49F-F19C-4ED9-A70E-51F36657FA9C-1762-0000106750046D9C';
+}
 
 async function main() {
   const quoteBlock = await getQuote();
