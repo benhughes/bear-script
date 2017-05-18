@@ -1,0 +1,21 @@
+{
+  "name": "bear-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "form-data": "^2.1.4",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.6.3",
+    "opn": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-node": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
