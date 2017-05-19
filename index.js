@@ -20,7 +20,7 @@ ${quoteBlock}
 
 ## Daily 💁
 - Check [📝 Scratch Pad](bear://x-callback-url/open-note?id=96642786-147F-464C-A11F-0EB74F28E291-4584-000002C15FD934DB)
-- Check [Phabricator](https://phabricator.thoughtmachine.net)
+- Check [Phabricator](https://phabricator.thomac.net)
 - Transfer Emails to tasks and get to inbox zero
 - Clear [Todoist inbox](https://en.todoist.com/app?lang=en&v=862#project%2F177156204)
 - Check Todoist 
