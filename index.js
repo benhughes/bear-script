@@ -40,6 +40,10 @@ ${due}
 
 ## Todo ✅ 
 
+### Today📆
+
+### Backlog🔥
+
 ## Notes 📝 
 
 ---
